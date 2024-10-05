@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li class="logo"><a href=""><i class="fa-solid fa-bed" style="color: #ffffff;"></i></a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#about-container">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="book-now"><a href="">Book Now</a></div>
+            </ul>
+        </nav>
+        <div class="img">
+            <div class="info">
+                <h1><i class="fa-solid fa-bed"></i> Mandarin Oriental</h1>
+                <div class="checks">
+                    <span><i class="fa-regular fa-calendar"></i> Check In</span>
+                    <span><i class="fa-regular fa-calendar"></i> Check Out</span>
+
+
+                </div>
+                <div class="input">
+                    <input type="text" id="check-in" placeholder="DD MM YYYY" required>
+
+                    <input type="text" id="check-out" placeholder="DD MM YYYY" required>
+
+
+                    <input type="number" placeholder="Adults" required>
+                    <input type="number"  placeholder="Kids" required>
+                </div>
+
+                <button class="search"><i class="fa-solid fa-magnifying-glass"></i> Search availability</button>
+            </div><img src="hotel.jpg">
+
+
+        </div>
+    </header>
+
+    <div id="rooms">
+
+        <span class="room">Rooms</span>
+        <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+
+        <div class="sec-check-input">
+
+            <div class="checks-sec">
+                <span><i class="fa-regular fa-calendar"></i> Check In</span>
+                <span><i class="fa-regular fa-calendar"></i> Check Out</span>
+                <span><i class="fa-solid fa-person"></i> Adults</span>
+                <span><i class="fa-solid fa-child-reaching"></i> kids</span>
+            </div>
+
+            <input type="text" placeholder="DD/MM/YYYY">
+            <input type="text" placeholder="DD/MM/YYYY">
+            <input type="number" value="1">
+            <input type="number" value="0">
+            <button class="searchbtn">Search</button>
+        </div>
+
+
+        <div class="type-of-rooms">
+
+            <div class="single"><img src="room_single.jpg">
+                <div class="type-info">
+                    <span>Single Room</span>
+                    <p>From $99</p>
+                    <p>Single bed</p>
+                    <p>15m <sup>2</sup></p>
+                    <p><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i
+                            class="fa-solid fa-wifi"></i></p>
+                    <button>Choose Room</button>
+                </div>
+
+            </div>
+            <div class="double"><img src="room_double.jpg">
+                <div class="type-info">
+                    <span>Single Room</span>
+                    <p>From $149</p>
+                    <p>Queen-size bed</p>
+                    <p>25m <sup>2</sup></p>
+                    <p><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i
+                            class="fa-solid fa-wifi"></i> <i class="fa-solid fa-tv"></i></p>
+
+                    <button>Choose Room</button>
+                </div>
+            </div>
+            <div class="delux"><img src="room_deluxe.jpg">
+                <div class="type-info">
+                    <span>Single Room</span>
+                    <p>From $199</p>
+                    <p>King-size bed</p>
+                    <p>40m <sup>2</sup></p>
+                    <p><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i
+                            class="fa-solid fa-wifi"></i> <i class="fa-solid fa-tv"></i> <i
+                            class="fa-solid fa-martini-glass"></i> <i class="fa-solid fa-utensils"></i></p>
+
+                    <button>Choose Room</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-container">
+        <div class="about-content">
+            <h1>About</h1>
+            <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam.</p>
+            <p>We accept: <i class="fa-solid fa-credit-card"></i> <i class="fa-brands fa-cc-mastercard"></i> <i
+                    class="fa-brands fa-cc-paypal"></i> <i class="fa-brands fa-cc-visa"></i></p>
+        </div>
+        <div class="img-content">
+            <img src="map.jpg" alt="">
+        </div>
+
+
+    </div>
+    <div class="location">
+        <span><i class="fa-solid fa-location-pin" style="color: #ff0000;"></i> 423 Some adr, Chicago, US</span><span><i
+                class="fa-solid fa-phone" style="color: #ff0000;"></i> Phone: +00 151515</span><span><i
+                class="fa-solid fa-envelope" style="color: #ff0000;"></i> Email:
+            mail@mail.com</span>
+    </div>
+
+    <div class="red-part">
+        <p><i class="fa-solid fa-circle-info"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
+    </div>
+
+    <div class="hotels">
+        <h1>Our Hotels</h1>
+        <p>You can find our hotels anywhere in the world:</p>
+        <div class="flex-container">
+            <span>Cinque Terre</span>
+            <img src="cinqueterre.jpg">
+
+            <div class="mini-hotels">
+
+                <p>New York</p>
+                <p>San Francisco</p>
+                <p>Pisa</p>
+                <p>Paris</p>
+                <img src="newyork2.jpg">
+                <img src="sanfran.jpg">
+                <img src="pisa.jpg">
+                <img src="paris.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <h1>Get the best offers first!</h1>
+        <p>Join our newsletter.</p>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Your Email address">
+        <button>Subscribe</button>
+
+    </div>
+
+
+    <div id="contact">
+        <h1>Contact</h1>
+        <span>If you have any questions, do not hesitate to ask them.</span>
+        <p> Chicago, US</p>
+        <p> Phone: +00 151515</p>
+        <p> Email: mail@mail.com</p>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Message">
+        <button>send message</button>
+    </div>
+
+    <footer class="footer">
+        <span>Find Us On</span>
+        <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i
+                class="fa-brands fa-square-snapchat"></i> <i class="fa-brands fa-pinterest-p"></i> <i
+                class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i></span>
+        <span>Powerd by <a href="#">codexash</a></span>
+    </footer>
+
+</body>
+
+</html>
